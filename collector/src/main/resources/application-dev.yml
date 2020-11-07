@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+# Spring 整合 kafka
+spring:
+  application:
+    name: collector
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+
